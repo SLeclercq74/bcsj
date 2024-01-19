@@ -1,0 +1,509 @@
+/* @font-face {
+  font-family: KdamThmorPro-Regular;
+  src: url("../fonts/KdamThmorPro-Regular.ttf");
+} */
+.border-right {
+  border-right: 1px solid #4d4a48;
+}
+
+.border-bottom {
+  border-bottom: 2px solid #4d4a48 !important;
+}
+
+.hour-head {
+  font-size: 0.6em;
+}
+
+.calendar, .hour.eveil, .hour.mini, .hour.baby, .hour.hobby, .hour.arbitrage, .hour.perf, .hour.seniors-f1, .hour.seniors-m2, .hour.seniors-m1, .hour.u18f, .hour.junior, .hour.u17m, .hour.u15f, .hour.u15m, .hour.u13m, .hour.u13f, .hour.u11m,.hour.u11m2, .hour.u11f {
+  font-size: 0.8em;
+  border: 2px solid #4d4a48;
+  color: black;
+}
+
+table:not(.table.event) {
+  border: 2px solid #4d4a48;
+}
+
+.hour.u11f {
+  width: 132.5px;
+  background-color: #06b0f0;
+}
+
+.hour.u11m {
+  width: 159px;
+  background-color: #b7dee8;
+}
+
+.hour.u11m2 {
+  width: 159px;
+  background-color: #754110;
+  color: #ffffff;
+}
+
+.hour.u13f {
+  width: 159px;
+  background-color: #ccc0da;
+}
+
+.hour.u13m {
+  width: 159px;
+  background-color: #ffbf00;
+}
+
+.hour.u15m {
+  width: 159px;
+  background-color: #c4bd97;
+}
+
+.hour.u15f {
+  width: 159px;
+  background-color: #92d051;
+}
+
+.hour.u17m {
+  width: 159px;
+  background-color: #e6b8b8;
+}
+
+.hour.junior {
+  width: 159px;
+  background-color: #ffff00;
+}
+
+.hour.u18f {
+  width: 159px;
+  background-color: #e26b09;
+}
+
+.hour.seniors-m1 {
+  width: 159px;
+  background-color: #FF0000;
+}
+
+.hour.seniors-m2 {
+  width: 159px;
+  color: black;
+  background-color: #d9d9d9;
+}
+
+.hour.seniors-f1 {
+  width: 159px;
+  background-color: #f2dcdc;
+}
+
+.hour.perf {
+  width: 159px;
+  background-color: white;
+}
+
+.hour.arbitrage {
+  width: 159px;
+  background-color: black;
+  color: white;
+}
+
+.hour.hobby {
+  width: 159px;
+  background-color: black;
+  color: white;
+}
+
+.hour.baby {
+  width: 159px;
+  background-color: #e1954b;
+  font-size: 0.8em;
+}
+
+.hour.mini {
+  width: 159px;
+  background-color: #fabf8f;
+}
+
+.hour.eveil {
+  width: 159px;
+  background-color: #538dd5;
+}
+
+.h1-0 {
+  width: 100px;
+}
+
+.splitter {
+  background-color: #4d4a48;
+  width: 6px;
+}
+
+.hour {
+  width: 30%;
+  border: 1px solid #4d4a48;
+}
+
+.day {
+  width: 30%;
+  border: 2px solid #4d4a48;
+}
+
+.room {
+  border: 2px solid #4d4a48;
+  width: 40%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* ---- grid ---- */
+.grid {
+  max-width: 1200px;
+}
+
+/* clearfix */
+.grid:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+.grid-sizer,
+.grid-item {
+  width: 25%;
+}
+
+.grid-item {
+  height: 120px;
+  float: left;
+  background: #D26;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.grid-item--width2 {
+  width: 40%;
+}
+
+.grid-item--width3 {
+  width: 60%;
+}
+
+.grid-item--height2 {
+  height: 200px;
+}
+
+.grid-item--height3 {
+  height: 260px;
+}
+
+.grid-item--height4 {
+  height: 360px;
+}
+
+.list-group-item.active {
+  background-color: #4d4a48 !important;
+  border-color: #4d4a48 !important;
+}
+
+/* body {
+  background-color: white;
+  color: rgba(77, 74, 72, 0.4);
+  font-family: "KdamThmorPro-Regular";
+  font-size: 0.8em !important;
+} */
+
+/* header {
+  background-image: url("/assets/header-without-logo.png");
+  height: 96px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+} */
+
+/* .custom-toggler.navbar-toggler {
+  border-color: #a6151c;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23a6151c' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.bg-primary {
+  background-color: rgb(0, 0, 0) !important;
+} */
+
+.club {
+  font-family: "KdamThmorPro-Regular";
+  color: white;
+  font-size: 1.5em;
+  padding-top: 25px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+  font-family: KdamThmorPro-Regular !important;
+}
+
+.navbar-nav .nav-item.active a.nav-link {
+  color: #a6151c !important;
+}
+
+.season {
+  height: 300px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+footer {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer {
+  background-color: #1a1a1a;
+  height: 60px;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+footer aside {
+  font-size: 0.7em !important;
+  padding-top: 20px;
+  height: 150px;
+  background-color: #262626;
+}
+
+footer aside .icon {
+  color: #a6151c;
+}
+
+footer aside a,
+footer aside a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+footer aside div.row.info {
+  margin-bottom: 15px;
+}
+
+.social-network {
+  margin-top: 10px;
+  margin-right: 10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  background-color: #1a1a1a;
+  transition: all 300ms linear;
+}
+
+.social-network:hover {
+  color: white;
+  background-color: #a6151c;
+}
+
+section.container {
+  margin-bottom: 50px !important;
+  min-height: 400px;
+}
+
+h1,
+h2,
+h3 {
+  color: #4d4a48;
+}
+
+.coach,
+.emphasys {
+  color: #a6151c;
+}
+
+ul.teams li:first-child {
+  color: #a6151c;
+  list-style: none;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+ul.teams li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+ul.teams li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul.teams li a:hover {
+  text-decoration: none;
+  color: #a6151c;
+}
+
+a {
+  text-decoration: underline;
+  color: #a6151c;
+  /* font-style: italic; */
+}
+
+a:hover {
+  color: rgba(77, 74, 72, 0.4);
+}
+
+.card-title {
+  font-size: 1em !important;
+  color: #a6151c;
+}
+
+.card-text {
+  /* font-size: 0.8em !important; */
+}
+
+.card-body a {
+  font-size: 0.8em !important;
+}
+
+a.btn.btn-outline-danger {
+  font-size: 0.8em !important;
+}
+
+.card-text.emphasys {
+  font-size: 1em !important;
+}
+
+.card-text.emphasys.title {
+  font-size: 1.5em !important;
+  color: #a6151c !important;
+}
+
+.card {
+  width: 100%;
+}
+
+.score {
+  display: inline-inline;
+  height: 170px;
+  width: 100%;
+  overflow-y: hidden;
+}
+
+img.grey-filter {
+  filter: grayscale(1);
+  transition: filter 500ms linear;
+}
+
+img.grey-filter:hover {
+  filter: grayscale(0);
+}
+
+.match {
+  height: 100px;
+  background: linear-gradient(90deg, #a6151c 5%, #1a1a1a 35%);
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.match h5, .match h6 {
+  color: white;
+}
+
+.match h6 {
+  font-size: 0.8em;
+}
+
+.match h5 {
+  font-size: 1.25em;
+}
+
+.list-group.m3x3{
+  margin-bottom:15px;
+}
+.list-group li.list-group-item.header{ 
+  *border-radius: 0 !important;
+  background-color : #595959;
+  color:white;
+}
+
+/* .list-group li.list-group-item{ 
+  background-color : #f0f0f0;
+  color:#595959;
+} */
+
+.img-fluid {
+  margin-bottom: 15px;
+}
+
+@media (min-width: 576x) {
+  .bg-primary {
+    background-color: #1a1a1a !important;
+  }
+  header {
+    background: url("/assets/header-without-logo.png");
+    height: 96px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+  .hour {
+    width: 26.5px;
+    border: 1px solid #4d4a48;
+  }
+  .day {
+    width: 106px;
+    border: 2px solid #4d4a48;
+  }
+  .room {
+    border: 2px solid #4d4a48;
+    width: 132.5px;
+  }
+  .hour.baby {
+    width: 100px;
+    font-size: 0.8em;
+    border: 2px solid #4d4a48;
+    color: black;
+    background-color: #e1954b;
+    font-size: 0.8em;
+  }
+  .hour.mini {
+    width: 100px;
+    font-size: 0.8em;
+    border: 2px solid #4d4a48;
+    color: black;
+    background-color: #fabf8f;
+  }
+  .hour.eveil {
+    width: 100px;
+    font-size: 0.8em;
+    border: 2px solid #4d4a48;
+    color: black;
+    background-color: #538dd5;
+  }
+}
+@media (min-width: 992px) {
+  header {
+    background-image: url("/assets/header.png");
+    height: 350px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+  .card {
+    width: 12rem; 
+  }
+
+  .card.event-central {
+    width: 20rem; 
+  }
+
+  .match h5 {
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 1200px) {
+  header {
+    background-image: url("/assets/header.png");
+    height: 400px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position-y: -45px;
+  }
+}

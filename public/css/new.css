@@ -1,0 +1,401 @@
+:root {
+    --base-color: #a6151c;
+    --base-color-svg: '%23a6151c';
+    --base-background: white;
+    --bont-color: rgb(77, 74, 72);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url("../fonts/RobotoCondensed-Regular.ttf");
+  }
+
+@font-face {
+font-family: roboto-bold;
+src: url("../fonts/RobotoCondensed-Bold.ttf");
+}
+
+
+body{
+    font-family: 'roboto-bold';
+    color: rgba(77, 74, 72, 0.4);
+
+  font-size: 0.8em !important;
+}
+
+section.container{
+    max-width:90%;
+} 
+
+h1{
+    font-size: 30px !important;
+    line-height: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+/*navbar*/
+.row.row-menu{
+    --bs-gutter-x: 0 !important;
+}
+
+
+div.navbar.menu{
+    width: 100%;
+    height: 120px;
+    /* background-color: rgba(77,74,72,0.8);text-decoration: none; */
+    padding-right: 120px;
+    
+}
+
+.navbar-container-item{
+    /* width: 40%; */
+    background: rgba(21,21,21,.8);
+    
+}
+
+div.navbar.menu .item{
+    padding:0.5em; 
+    color: white;
+    text-decoration: none;
+    
+}
+
+.active{
+    color:  var(--base-color) !important;
+}
+
+
+div.item-container{
+    /* height: 40px; */
+}
+
+header{
+    min-height: 400px;
+    background-image: url('../assets/bcsj-banner.png');
+}
+
+
+.spacer{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 32px;
+    height: 2px;
+    left: 50%;
+    bottom: 10px;
+    margin-left: -16px;
+    background-color: #fff;
+}
+
+
+/*Game*/
+.stm-upcoming-events_list ul li {
+    position: relative;
+    /* min-height: 138px; */
+    padding: 5px 5px 5px 200px;
+    margin-bottom: 0;
+    background-color: #f0f0f0;
+}
+
+group-vertical>.btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .modal-header:after, .modal-header:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
+    display: table;
+    content: " ";
+}
+
+.stm-upcoming-events_list ul {
+    padding: 0;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.stm-upcoming-events_list ul li .event_date {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 170px;
+    padding: 0 20px;
+    background-color: #595959;
+    color: #fff;
+    text-align: center;
+    vertical-align: top;
+}
+
+.stm-upcoming-events_list ul li .event_date {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 170px;
+    padding: 0 20px;
+    background-color: #595959;
+    color: #fff;
+    text-align: center;
+    vertical-align: top;
+}
+
+.stm-upcoming-events_list ul li .event_date .stm-top {
+    font-size: 18px;
+    vertical-align: top;
+}
+
+.stm-upcoming-events_list ul li .event_date .stm-top figure {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 1px;
+}
+
+.stm-upcoming-events_list ul li .event_date .date {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.stm-upcoming-events_list ul li .event_date .stm-middle {
+    position: relative;
+    padding-bottom: 17px;
+    margin-top: -1px;
+    font-size: 12px;
+    letter-spacing: .6px;
+}
+
+.stm-upcoming-events_list ul li .event_date .stm-middle:after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 32px;
+    height: 2px;
+    left: 50%;
+    bottom: 10px;
+    margin-left: -16px;
+    background-color: #fff;
+}
+
+.stm-upcoming-events_list ul li .commands h3 a {
+    color: inherit;
+    text-decoration: none !important;
+}
+
+.stm-red {
+    color: #e21e22 !important;
+}
+
+.stm-italic{
+    font-style: italic;
+}
+
+.stm-upcoming-events_list ul li .commands h3 {
+    margin-bottom: 8px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.stm-upcoming-events_list ul li{
+    border-bottom: 1px grey solid;
+}
+
+.commands div.col{
+    font-size: 18px;
+}
+
+/* news / events */
+
+.card {
+    border: 0px solid rgba(0,0,0,.125) !important;
+}
+
+
+
+/* Footer */
+footer {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .footer {
+    background-color: #1a1a1a;
+    height: 60px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  
+  footer aside {
+    font-size: 0.7em !important;
+    padding-top: 20px;
+    height: 150px;
+    background-color: #262626;
+  }
+  
+  footer aside .icon {
+    color: #a6151c;
+  }
+  
+  footer aside a,
+  footer aside a:hover {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  footer aside div.row.info {
+    margin-bottom: 15px;
+  }
+  
+  .social-network {
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    background-color: #1a1a1a;
+    transition: all 300ms linear;
+  }
+  
+  .social-network:hover {
+    color: white;
+    background-color: #a6151c;
+  }
+
+  img.grey-filter {
+    filter: grayscale(1);
+    transition: filter 500ms linear;
+  }
+  
+  img.grey-filter:hover {
+    filter: grayscale(0);
+  }
+
+  .location{
+    font-size: .8em;
+    font-style: italic;
+    color: #1a1a1a;
+  }
+
+
+  /* mediq queries */
+
+  
+@media (max-width:574px){
+
+    section.container{
+        max-width:100%;
+    }
+    .row.game{
+        padding: 0;
+        margin: 0;
+    }
+    header{
+        min-height: 0px;
+        background-image: none;
+    }
+    
+    .stm-upcoming-events_list ul li {
+        margin-bottom: 10px;
+        padding: 0 !important;     
+    }
+
+    .stm-upcoming-events_list ul li .event_date {
+        position: static;
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    .stm-upcoming-events_list ul li .event_date .date {
+        position: static;
+        transform: none;
+    }
+    
+    .stm-upcoming-events_list ul li .clearfix {
+        padding: 0 15px;
+        text-align: center;
+    }
+    
+    .stm-upcoming-events_list ul li .commands {
+        float: none;
+        
+    }
+    .commands div.col{
+        font-size: .5em !important; 
+    }
+
+
+    .navbar-light .navbar-nav .nav-link {
+        color: black !important;
+        font-family: 'roboto-bold' !important;
+    }
+}
+
+@media (min-width: 768px) { 
+    header{
+        min-height: 220px;
+        background-image: url('../assets/bcsj-banner_800.png');
+        background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    div.navbar.menu {
+        width: 100%;
+        height: 50px;
+        padding-right: 0px;
+    }
+
+    
+ }
+
+
+
+@media (min-width:992px) { 
+    header{
+        min-height: 400px;
+    background-image: url('../assets/bcsj-banner_1024.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    div.navbar.menu {
+        width: 100%;
+        height: 120px;
+        padding-right: 0px;
+    }
+
+    div.navbar.menu {
+        width: 100%;
+        height: 120px;
+        padding-right: 0px;
+    }
+}
+
+@media (min-width: 1200px) { 
+    header{
+        min-height: 400px;
+        background-image: url('../assets/bcsj-banner_1500.png');
+        --background-position-x: -150px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    div.navbar.menu {
+        width: 100%;
+        height: 120px;
+        padding-right: 120px;
+    }
+
+ }
+
+ @media (min-width:1400px) { 
+    header{
+        min-height: 400px;
+        background-image: url('../assets/bcsj-banner.png');
+        --background-position-x: -150px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    div.navbar.menu {
+        width: 100%;
+        height: 120px;
+        padding-right: 120px;
+    }
+} 
