@@ -113,7 +113,7 @@
         <div class="card w-75 mb-3">
             <img src="./assets/February.png" class="card-img-top" alt="...">
             <div class="card-body">
-                <h6 class="card-text emphasys title">Stage de février :  <br><strong>NEW</strong> <br>26/02/24 - 01/03/24</h6>
+                <h6 class="card-text emphasys title">Stage de février : <br><strong>NEW</strong> <br>26/02/24 - 01/03/24</h6>
                 <h5 class="card-title"></h5>
                 <p class="card-text">Rejoignez notre stage de Février ! Les jeunes basketteurs découvriront de
                     nouvelles compétences, des défis passionnants et des jeux ludiques...</p>
